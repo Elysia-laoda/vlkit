@@ -1,0 +1,13 @@
+# 运行产物
+.cache/
+__pycache__/
+*.pyc
+
+# 凭据：绝不入库（密钥从环境变量或本机 CSV 读取）
+apiKey.csv
+*.key
+vlkit.local.json
+
+# 媒体验证素材
+*.wav
+*.mp3
